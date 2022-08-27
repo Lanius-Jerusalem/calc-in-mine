@@ -1,0 +1,16 @@
+name: Firstplugin
+version: '${project.version}'
+main: me.knolex.firstplugin.Plugin
+api-version: 1.19
+authors: [ KNOLEX ]
+description: first test.
+commands:
+  calculator:
+    description: считает два числа
+    aliases:
+      - calc
+    usage: /calculate <num1> <+|-|/|*> <num2>
+    message:
+      aliases:
+        - m
+        - usage: /n <hello | goodbye| whatsup>

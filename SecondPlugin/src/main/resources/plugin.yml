@@ -1,0 +1,16 @@
+name: SecondPlugin
+version: '${project.version}'
+main: me.knolex.secondplugin.Plugin
+api-version: 1.18
+authors: [ KNOLEX ]
+commands:
+  calculator:
+    description: считает два числа
+    aliases:
+      - calc
+    usage: /calculate <num1> <+|-|/|*> <num2>
+    message:
+      aliases:
+        - m
+        - usage: /n <hello | goodbye| whatsup>
+
